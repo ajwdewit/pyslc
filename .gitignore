@@ -5,6 +5,11 @@ __pycache__/
 
 # C extensions
 *.so
+*.o
+*.a
+*.obj
+*.pyd
+
 
 # Distribution / packaging
 .Python
@@ -15,7 +20,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+#lib/
 lib64/
 parts/
 sdist/
@@ -87,3 +92,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+#PyCharm project files
+.idea

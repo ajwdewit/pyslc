@@ -1,0 +1,27 @@
+Soil code           1
+Hapke_b          0.84
+Hapke_c          0.68
+Hapke_B0         0.30
+Hapke_h          0.23
+SM%               5.0
+Cab_green        70.0
+Cw_green        0.008
+Cdm_green       0.003
+Cs_green         0.05
+N_green         1.500
+Cab_brown         5.0
+Cw_brown        0.001
+Cdm_brown       0.005
+Cs_brown         1.00
+N_brown         2.000
+LAI              1.00
+LIDF a          -0.35
+LIDF b          -0.15
+hot              0.05
+fB               0.00
+D                0.80
+Cv%              100.
+zeta             0.50
+sza              30.0
+vza               0.0
+azi               0.0

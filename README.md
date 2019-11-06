@@ -23,19 +23,20 @@ For more documentation, refer to the the literature by Verhoef et al.
 # Package contents
 
 The package consists of the following structure:
-pyslc/:
-    * pyslc/
-        *  lib/              contains the SLC Fortran code and the shared libraries for Python
-        *  optcoeff_files/   contains the optical coefficients files for PROSPECT.
-                             NB: those files also contain the water refraction index (H2O_abko) for the soil moisture model
-        *  soilparam_files/  contains the files with the soil single scattering albedo values
-        *  standparam_files/ contains the files with the leaf chemistry and canopy structure parameters values
-        *  sensors_charac/   contains the spectral characteristics of the sensors (only CHRIS mode 4 is available now)
-    * output/           contains reference output files, generated output from "run_example.py" is written here.
-    * doc/              Documentation
-    * examples/         Examples
-        * example_run.py    An example for a spectral and angular run.
-        * Tamarugo_loop_example/ Incomplete example, left here for
+
+    pyslc/:
+       * pyslc/
+           *  lib/              contains the SLC Fortran code and the shared libraries for Python
+           *  optcoeff_files/   contains the optical coefficients files for PROSPECT.
+                                NB: those files also contain the water refraction index (H2O_abko) for the soil moisture model
+           *  soilparam_files/  contains the files with the soil single scattering albedo values
+           *  standparam_files/ contains the files with the leaf chemistry and canopy structure parameters values
+           *  sensors_charac/   contains the spectral characteristics of the sensors (only CHRIS mode 4 is available now)
+       * output/           contains reference output files, generated output from "run_example.py" is written here.
+       * doc/              Documentation
+       * examples/         Examples
+           * example_run.py    An example for a spectral and angular run.
+           * Tamarugo_loop_example/ Incomplete example, left here for
 
 # Installing
 
